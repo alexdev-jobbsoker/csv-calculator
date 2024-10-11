@@ -56,7 +56,7 @@ def calculate_highest_sales_product(total_sales: Dict[str, float]) -> Dict[str, 
 
 def display_results(results: Dict[str, float], title: str) -> None:
     print(f"\n{title}")
-    for product, value in results.items():'
+    for product, value in results.items():
         print(f"{product}: {value:.2f}")
 
 
